@@ -1,7 +1,0 @@
-#!/bin/bash
-
-git pull || exit 1
-
-git add -A
-git commit -m "none"
-git push
