@@ -4,17 +4,17 @@
 <meta charset="utf-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Organic</title>
+<title>Social</title>
 <script src="//assets.adobedtm.com/d5f18a224647/23c29d14c000/launch-e5f2c503840d-development.min.js" async></script>
 <style id="applicationStylesheet" type="text/css">
 	.mediaViewInfo {
-		--web-view-name: Organic;
-		--web-view-id: Organic;
+		--web-view-name: Social;
+		--web-view-id: Social;
 		--web-scale-on-resize: true;
 		--web-enable-deep-linking: true;
 	}
 	:root {
-		--web-view-ids: Organic;
+		--web-view-ids: Social;
 	}
 	* {
 		margin: 0;
@@ -22,88 +22,24 @@
 		box-sizing: border-box;
 		border: none;
 	}
-	#Organic {
+	#Social {
 		position: absolute;
 		width: 1280px;
 		height: 800px;
 		background-color: rgba(255,255,255,1);
 		overflow: hidden;
-		--web-view-name: Organic;
-		--web-view-id: Organic;
+		--web-view-name: Social;
+		--web-view-id: Social;
 		--web-scale-on-resize: true;
 		--web-enable-deep-linking: true;
 	}
-	@keyframes fadein {
-	
-		0% {
-			opacity: 0;
-		}
-		100% {
-			opacity: 1;
-		}
-	
-	}
-	#Organic_k {
+	#Main_Web_Site {
 		position: absolute;
 		left: 158px;
 		top: 100px;
 		overflow: visible;
-		width: 71px;
+		width: 130px;
 		white-space: nowrap;
-		text-align: left;
-		font-family: Helvetica Neue;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 20px;
-		color: rgba(112,112,112,1);
-	}
-	#Content_Marketing {
-		position: absolute;
-		left: 615px;
-		top: 149px;
-		overflow: visible;
-		width: 167px;
-		white-space: nowrap;
-		--web-animation: fadein 0.3s ease-out;
-		--web-action-type: page;
-		--web-action-target: ContentMarketing.html;
-		cursor: pointer;
-		text-align: left;
-		font-family: Helvetica Neue;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 20px;
-		color: rgba(112,112,112,1);
-	}
-	#Product_A {
-		position: absolute;
-		left: 615px;
-		top: 230px;
-		overflow: visible;
-		width: 90px;
-		white-space: nowrap;
-		--web-animation: fadein 0.3s ease-out;
-		--web-action-type: page;
-		--web-action-target: ProductA.html;
-		cursor: pointer;
-		text-align: left;
-		font-family: Helvetica Neue;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 20px;
-		color: rgba(112,112,112,1);
-	}
-	#Social {
-		position: absolute;
-		left: 615px;
-		top: 301px;
-		overflow: visible;
-		width: 56px;
-		white-space: nowrap;
-		--web-animation: fadein 0.3s ease-out;
-		--web-action-type: page;
-		--web-action-target: Social.html;
-		cursor: pointer;
 		text-align: left;
 		font-family: Helvetica Neue;
 		font-style: normal;
@@ -2536,18 +2472,9 @@ window.application = new Application();
 </script>
 </head>
 <body>
-<div id="Organic">
-	<div id="Organic_k">
-		<span>Organic</span>
-	</div>
-	<div onclick="application.goToTargetView(event)" id="Content_Marketing">
-		<span>Content Marketing</span>
-	</div>
-	<div onclick="application.goToTargetView(event)" id="Product_A">
-		<span>Product A</span>
-	</div>
-	<div onclick="application.goToTargetView(event)" id="Social">
-		<span>Social</span>
+<div id="Social">
+	<div id="Main_Web_Site">
+		<span>Main Web Site</span>
 	</div>
 </div>
 </body>
